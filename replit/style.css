@@ -3,7 +3,7 @@ body{
     padding-bottom: 20px;
     margin: auto;
     max-width: 85%;
-    background-color: rgb(56, 0, 0);
+    background-color: rgb(92, 0, 0);
 
 }
 .conteiner{
@@ -345,63 +345,45 @@ a{
 .prodstext img{
     max-width: 50px;
 }
-.contmobile{
-    display: none;
-}
 
 
 
 
 
-@media screen and (max-width: 1143px) {
-    .conteiner{
-        display: none;
-    }
-    .contmobile{
+
+@media screen and (max-width: 768px) {
+    body{
         display: flex;
-        background-color: rgb(255, 136, 0);
-        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+    .conteiner{
+
+        display: flex;
+        flex-wrap: wrap;
         align-items: center;
-        border-radius: 10px;
+        text-align: center;
+        justify-content: center;
     }
-    .options img{
-        max-width: 50px;
-        margin-right: 50px;
-    }
-    .filtros{
-        display: none;
+    .container_section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     .produtos{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
-
+        text-align: center;
+        justify-content: center;
     }
     .melhoresprods{
-        display: none;
-
-    }
-    .news{
-        display: none;
-    }
-    .footers{
-        display: none;
-    }
-}
-@media screen and (max-width: 500px){
-    .carrosel{
-        min-width: 99vw;
-        border-radius: 10px;
-    }
-    .carrosel li > img{
-        max-width: 373px;
-        max-height: 100%;
-    }
-    @keyframes slide{
-        0%{left: 0px;}
-        50%{left: -373px;}
-        80%{left: -746px;}
-        100%{left: 0px;}
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 }
